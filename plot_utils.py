@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+
 def format_ticks_spines(axs):
 
     axs.tick_params(labelsize=16,width=2)
